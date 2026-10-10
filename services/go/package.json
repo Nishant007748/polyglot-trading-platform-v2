@@ -1,0 +1,8 @@
+{
+  "name": "go",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "C:\\Progra~1\\Go\\bin\\go.exe run main.go"
+  }
+}

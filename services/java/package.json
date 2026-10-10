@@ -1,0 +1,8 @@
+{
+  "name": "java",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "mvn spring-boot:run"
+  }
+}

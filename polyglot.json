@@ -1,0 +1,33 @@
+{
+  "name": "demo-project",
+  "preset": "turborepo",
+  "packageManager": "npm",
+  "services": [
+    {
+      "name": "node",
+      "type": "node",
+      "port": 3001,
+      "path": "services/node"
+    },
+    {
+      "name": "python",
+      "type": "python",
+      "port": 3004,
+      "path": "services/python"
+    },
+    {
+      "name": "go",
+      "type": "go",
+      "port": 3002,
+      "path": "services/go"
+    },
+    {
+      "name": "java",
+      "type": "java",
+      "port": 3003,
+      "path": "services/java"
+    }
+  ],
+  "sharedLibs": [],
+  "plugins": {}
+}
